@@ -1,6 +1,7 @@
+// This code was originated from R package `monoreg`(https://cran.r-project.org/package=monoreg)
 #include <stdio.h>
 #include <math.h>
-#include <stdlib.h> // was malloc.h
+#include <stdlib.h> 
 
 void test_code(void){
 	printf("-----------------------------\n");
