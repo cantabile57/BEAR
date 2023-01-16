@@ -1,0 +1,24 @@
+# [REQUIRED]
+title: ABCtran # title of job
+input_file_path: ./data/bear_input.pkl # input pandas DataFrame (.pkl)
+train_flag_file_path: ./data/train_flag.pkl # train bioassay data (.pkl)
+
+# [Output Options]
+out_dir: null
+
+# [Initialization of arguments]
+input: null 
+train_eaids: null
+train_flag: null
+
+# [HEA Parameters]
+logscale: 2 
+min_a_size: 10000
+laplacian_h: 0.0001
+min_oc_in_a: 3
+min_comp_per_bin: 5
+max_comp_per_bin: 1000
+min_bin_n: 3
+max_n_low_limit: 1
+min_hea_score: 1
+min_llr_score: 0
